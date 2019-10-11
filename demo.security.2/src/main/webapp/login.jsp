@@ -22,10 +22,9 @@
             <span>${message}</span>
             <input name="username" type="text"  placeholder="Username"  autofocus="true"/>
             <input name="password" type="password"  placeholder="Password"/>
-            <span>${error}</span>
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-
             <button type="submit">Log In</button>
+            <span>${error}</span>
             <h4 ><a href="${contextPath}/sign-in">Create an account</a></h4>
         </div>
       </form>

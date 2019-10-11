@@ -48,7 +48,7 @@ public class UserController {
 			model.addAttribute("error", "Tu nombre de usuario y contraseña no son válidos.");
 
 		if (logout != null)
-			model.addAttribute("message", "Tu login se realizó correctamente");
+			model.addAttribute("message", "Tu logout se realizó correctamente");
 
 		System.out.println("Retornaremos la página de login");
 

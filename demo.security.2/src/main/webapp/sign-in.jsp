@@ -37,7 +37,7 @@
                     <form:errors path="passwordConfirm"></form:errors>
                 </div>
             </spring:bind>
-
+			<br/>
             <button type="submit">Submit</button>
         </form:form>
 
